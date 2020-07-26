@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AFB56301-DE90-404C-B94D-9206B7F3288E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Domain.Core", "src\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{9833147A-929E-4AFA-819B-707BB8EA70D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroMQ.Domain.Core", "src\MicroRabbit.Domain.Core\MicroMQ.Domain.Core.csproj", "{9833147A-929E-4AFA-819B-707BB8EA70D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
