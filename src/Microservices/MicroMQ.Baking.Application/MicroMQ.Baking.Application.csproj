@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicroMQ.Banking.Domain\MicroMQ.Banking.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
