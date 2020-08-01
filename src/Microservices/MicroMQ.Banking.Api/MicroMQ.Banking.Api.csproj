@@ -16,6 +16,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\MicroMQ.Infra.IoC\MicroMQ.Infra.IoC.csproj" />
+    <ProjectReference Include="..\MicroMQ.Baking.Application\MicroMQ.Baking.Application.csproj" />
+    <ProjectReference Include="..\MicroMQ.Banking.Data\MicroMQ.Banking.Data.csproj" />
+    <ProjectReference Include="..\MicroMQ.Banking.Domain\MicroMQ.Banking.Domain.csproj" />
   </ItemGroup>
 
 

@@ -1,4 +1,5 @@
 using MediatR;
+using MicroMQ.Banking.Api.IoC;
 using MicroMQ.Banking.Data.Context;
 using MicroMQ.Infra.IoC;
 using Microsoft.AspNetCore.Builder;
@@ -43,6 +44,7 @@ namespace MicroMQ.Banking.Api
         private void RegisterServices(IServiceCollection services)
         {
             DependencyContainer.RegisterService(services);
+            MicroDependencyContainer.RegisterServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
