@@ -6,5 +6,6 @@ namespace MicroMQ.Transfer.Domain.Interfaces.Repositories
     public interface ITransferRepository
     {
         IEnumerable<TransferLog> GetTransferLogs();
+        void Add(TransferLog transferLog);
     }
 }

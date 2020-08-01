@@ -18,5 +18,11 @@ namespace MicroMQ.Transfer.Data.Repository
         {
             return _context.TranferLogs;
         }
+
+        public void Add(TransferLog transferLog)
+        {
+            _context.TranferLogs.Add(transferLog);
+            _context.SaveChanges();
+        }
     }
 }

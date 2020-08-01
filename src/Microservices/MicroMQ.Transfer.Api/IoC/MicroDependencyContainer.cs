@@ -17,6 +17,7 @@ namespace MicroMQ.Transfer.Api.IoC
             services.AddTransient<ITransferService, TransferService>();
 
             //Domain Events
+            services.AddTransient<TransferEventHandler>();
             services.AddTransient<IEventHandler<TransferCreatedEvent>, TransferEventHandler>();
 
             //Repositories
